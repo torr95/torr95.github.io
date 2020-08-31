@@ -1,9 +1,69 @@
-<!-- Hello world -->
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+  <nav class="navbar is-fixed-top " role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <!-- <a class="navbar-item" href="">
+      <img src="" width="112" height="28">
+    </a> -->
+
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item">
+        About Me
+      </a>
+
+      <a class="navbar-item">
+        Experience
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More
+        </a>
+
+        <div class="navbar-dropdown">
+          <a class="navbar-item">
+            About
+          </a>
+          <a class="navbar-item">
+            Jobs
+          </a>
+          <a class="navbar-item">
+            Contact
+          </a>
+          <hr class="navbar-divider">
+          <a class="navbar-item">
+            Report an issue
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a class="button is-primary">
+            <strong>Sign up</strong>
+          </a>
+          <a class="button is-light">
+            Log in
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
   <title>devfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="favicon.png" type="image/x-icon">
@@ -12,34 +72,38 @@
 </head>
 
 <body>
+  
+
+<!-- 
+
   <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <div class="navbar-item is-hidden-desktop">
-        <a href="https://github.com/mmacneil" class="icon is-large has-text-light">
+      <div class="navbar-item ">
+        <a href="https://github.com/torr95" class="icon is-large has-text-light">
           <i class="fab fa-2x fa-github"></i>
         </a>
       </div>
-      <div class="navbar-item is-hidden-desktop">
-        <a href="https://fullstackmark.com" class="icon is-large has-text-light">
-          <i class="fas fa-2x fa-globe"></i>
+      <div class="navbar-item ">
+        <a href="https://www.linkedin.com/in/ayush-gupta-b41880118/" class="icon is-large  has-text-light ">
+          <i class="fab fa-2x fa-linkedin"></i>
         </a>
       </div>
     </div>
     <div class="navbar-menu">
       <div class="navbar-end">
         <div class="navbar-item">
-          <a href="https://github.com/mmacneil" class="icon is-large has-text-light">
+          <a href="https://github.com/torr95" class="icon is-large has-text-light">
             <i class="fab fa-2x fa-github"></i>
           </a>
         </div>
         <div class="navbar-item">
-          <a href="https://fullstackmark.com" class="icon is-large has-text-light">
-            <i class="fas fa-2x fa-globe"></i>
+          <a href="https://www.linkedin.com/in/ayush-gupta-b41880118/" class="icon is-large has-text-light">
+            <i class="fab fa-2x fa-linkedin"></i>
           </a>
         </div>
       </div>
     </div>
-  </nav>
+  </nav> -->
 
   <section class="hero is-primary">
     <div class="hero-body">
@@ -47,17 +111,17 @@
         <div class="level">
           <div class="level-item has-text-centered">
             <figure class="image is-128x128">
-              <img class="is-rounded" src="img/me-big.jpg">
+              <img class="is-rounded" src="img/me2.jpg">
             </figure>
           </div>
         </div>
         <div class="columns has-text-centered">
           <div class="column">
             <h1 class="title is-1">
-              Mark Macneil
+              Ayush Gupta
             </h1>
             <h2 class="subtitle">
-              FullStack .NET Dev, Halifax, NS
+              Data Scientist
             </h2>
             <p>
               <a href="docs/resume.txt" class="icon has-text-light">
@@ -74,11 +138,7 @@
     <div class="container">
       <h1 class="title">About Me</h1>
       <hr />
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.</p>
+      <p> I am working as a Data Scientist at Promptcloud, India, trying to solve real-world problems with AI. Previously worked at IBM Research India and Swiggy Applied Research. With the deep understanding of Machine Learning and great skills of an IT engineer with excellent academic history combined with hard work, patience, and love for new technology, I want to solve real-world problems with help of artificial intelligence and develop solutions that are not beneficiary for only one but could help millions of people at the same time. </p>
     </div>
   </section>
   <section class="section">
@@ -90,13 +150,12 @@
           <div class="media">
             <div class="media-left">
               <figure class="image is-48x48">
-                <img src="img/dunder-mifflin-logo.png" alt="Placeholder image">
+                <img src="img/pc.png" alt="Placeholder image">
               </figure>
             </div>
             <div class="media-content">
-              <p class="title is-4">Company Name</p>
-              <p class="subtitle is-6">Title - <time datetime="2018-1">January 2018</time> - <time
-                  datetime="2019-9">Sepemter 2019</time> </p>
+              <p class="title is-4">PromptCloud</p>
+              <p class="subtitle is-6">Data Scientist, Natural Language Processing<br><time datetime="2020-8">August 2020</time> - Present </p>
             </div>
           </div>
           <div class="content">
@@ -107,12 +166,15 @@
               <li>Noteworthy achievment here.</li>
             </ul>
             <div class="tags">
-              <span class="tag">c#</span>
-              <span class="tag">xamarin</span>
-              <span class="tag">asp.net core</span>
-              <span class="tag">.net core</span>
-              <span class="tag">azure</span>
-              <span class="tag">devops</span>
+              <span class="tag">NLP</span>
+              <span class="tag">Deep Learning</span>
+              <span class="tag">Machine Learning</span>
+              <span class="tag">Data Science</span>
+              <span class="tag">Python</span>
+              <span class="tag">TensorFlow</span>
+              <span class="tag">Keras</span>
+              <span class="tag">PyTorch</span>
+              <span class="tag">Git</span>
             </div>
           </div>
         </div>
@@ -122,13 +184,13 @@
           <div class="media">
             <div class="media-left">
               <figure class="image is-48x48">
-                <img src="img/pied-piper-logo.png" alt="Placeholder image">
+                <img src="img/niyo.png" alt="Placeholder image">
               </figure>
             </div>
             <div class="media-content">
-              <p class="title is-4">Company Name</p>
-              <p class="subtitle is-6">Title - <time datetime="2018-1">August 2017</time> - <time
-                  datetime="2017-9">January 2018</time></p>
+              <p class="title is-4">Niyo Solutions</p>
+              <p class="subtitle is-6">Data Science Intern, Applied Research<br><time datetime="2020-2">February 2020</time> - <time
+                  datetime="2020-7">July 2020</time></p>
             </div>
           </div>
           <div class="content">
@@ -139,17 +201,91 @@
               <li>Noteworthy achievment here.</li>
             </ul>
             <div class="tags">
-              <span class="tag">c#</span>
-              <span class="tag">xamarin</span>
-              <span class="tag">asp.net core</span>
-              <span class="tag">.net core</span>
-              <span class="tag">azure</span>
-              <span class="tag">devops</span>
+              <span class="tag">NLP</span>
+              <span class="tag">Deep Learning</span>
+              <span class="tag">Machine Learning</span>
+              <span class="tag">Data Science</span>
+              <span class="tag">Python</span>
+              <span class="tag">TensorFlow</span>
+              <span class="tag">Keras</span>
+              <span class="tag">PyTorch</span>
+              <span class="tag">Git</span>
             </div>
           </div>
         </div>
       </div>
+      <div class="card card-gap">
+        <div class="card-content">
+          <div class="media">
+            <div class="media-left">
+              <figure class="image is-48x48">
+                <img src="img/ibm.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="media-content">
+              <p class="title is-4">IBM Research Labs</p>
+              <p class="subtitle is-6">Research Scientist Intern, Natural language Processing<br><time datetime="2019-7">July 2029</time> - <time
+                  datetime="2020-7">December 2019</time></p>
+            </div>
+          </div>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.</p>
+            <ul>
+              <li>Noteworthy achievment here.</li>
+              <li>Noteworthy achievment here.</li>
+              <li>Noteworthy achievment here.</li>
+            </ul>
+            <div class="tags">
+              <span class="tag">NLP</span>
+              <span class="tag">Information Extraction</span>
+              <span class="tag">Research</span>
+              <span class="tag">Reduct Theory</span>
+              <span class="tag">Ontology</span>
+              <span class="tag">IBM Watson</span>
+              <span class="tag">Python</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card card-gap">
+        <div class="card-content">
+          <div class="media">
+            <div class="media-left">
+              <figure class="image is-48x48">
+                <img src="img/swiggy.jpeg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="media-content">
+              <p class="title is-4">Swiggy</p>
+              <p class="subtitle is-6">Data Science Intern, Applied Research<br><time datetime="2019-5">May 2029</time> - <time
+                  datetime="2020-8">August 2019</time></p>
+            </div>
+          </div>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.</p>
+            <ul>
+              <li>Noteworthy achievment here.</li>
+              <li>Noteworthy achievment here.</li>
+              <li>Noteworthy achievment here.</li>
+            </ul>
+            <div class="tags">
+              <span class="tag">NLP</span>
+              <span class="tag">Computer Vision</span>
+              <span class="tag">Machine Learning</span>
+              <span class="tag">Deep Learning</span>
+              <span class="tag">Data Science</span>
+              <span class="tag">Research</span>
+              <span class="tag">Git</span>
+              <span class="tag">Python</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
     </div>
+
   </section>
 
   <section class="section">
@@ -301,7 +437,7 @@
     </div>
   </section>
 
-  <!-- Modals
+  <!-- Modals -->
   <div id="project-1-modal" class="modal">
     <div class="modal-background"></div>
     <div class="modal-card">
@@ -569,4 +705,3 @@
 </body>
 
 </html>
- -->

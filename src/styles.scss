@@ -7,20 +7,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
 
 
-$navbar-breakpoint: 0;
-.navbar-item {
-    &.has-dropdown {
-      .navbar-dropdown {
-        display: none;
-      }
-      &.is-active {
-        .navbar-dropdown {
-          display: block;
-        }
-      }
-   }
-}
-
 // Update Bulma's global variables
 $family-sans-serif: "Lato", sans-serif;
 $widescreen-enabled: false;
